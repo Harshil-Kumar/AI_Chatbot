@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0">
+  <link rel="stylesheet" href="../static/index.css">
+ 
+</head>
+
+
+<body>
+  
+  <div class="show-chatbot">
+  <button class="chatbot-toggler" onclick="openChat()">
+    <span class="material-symbols-rounded">mode_comment</span>
+    <span class="material-symbols-outlined" id="openicon" style="display: block;">smart_toy</span>
+    <span class="material-symbols-outlined" id="closeicon" style="display: none;">close</span>
+  </button>
+  <div id="chatboxdiv" style="display: none;">
+  <div class="chatbot" >
+    <header>
+      <h2>SNUC Chatbot</h2>
+      <span class="material-symbols-outlined">close</span>
+    </header>
+    <ul class="chatbox">
+      <li class="chat incoming">
+        <span class="material-symbols-outlined">smart_toy</span>
+        <p>Hi 👋, I'm Julie. SNUC's chatbot.<br> Ask me anything regarding University.</p>
+        
+      </li>
+
+      <div class="button-container">
+      <button class="button" id="courses">Courses</button>
+      <button class="button" id="fees">Fees</button>
+      <button class="button" id="placements">Placements</button>
+      <span><button class="button" id="contact">Contacts</button>
+      <button class="button" id="admission">Admission</button></span>
+      <span><button class="button" id="staff">Staff</button>
+      <button class="button" id="curriculum">Curriculum</button></span>
+    </div>
+    </ul>
+    
+    <div class="chat-input">
+      <textarea id='textArea' placeholder="Search for Hostels..." required></textarea>
+      <span id="send-btn" class="material-symbols-rounded">send</span>
+    </div>
+  </div>
+  </div>
+  
+  <script src="../static/index.js"></script>
+  <script>
+    function openChat(){
+      var myDiv=document.getElementById("chatboxdiv");
+      if(myDiv.style.display==='none'){
+        myDiv.style.display='block';
+        var iconDiv=document.getElementById("openicon");
+        if(iconDiv.style.display==='block'){
+          iconDiv.style.display='none';
+          document.getElementById("closeicon").style.display='block';
+        }
+      }
+      else{
+        myDiv.style.display='none';
+        var iconDiv=document.getElementById("openicon");
+        if(iconDiv.style.display==='none'){
+          iconDiv.style.display='block';
+          document.getElementById("closeicon").style.display='none';
+        }
+
+      }
+    };
+  </script>
+  
+  
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+{"intents": [
+  {"tag": "greeting",
+   "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "whatsup"],
+   "responses": ["Hello", "Good to see", "Hi there, how can I help?"],
+   "context": ""
+  },
+
+  {"tag": "you",
+   "patterns": ["Who are you?", "What are you?", "Who you are?", "what do you do?", "what is your name? "],
+   "responses": ["I am a Julie, an AI chatbot of SNUC created by students of SNU Chennai to help you with your queries regarding the college."],
+   "context": ""
+  },
+
+  {"tag": "goodbye",
+   "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+   "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+   "context": ""
+  },
+
+  {"tag": "thanks",
+   "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+   "responses": ["My pleasure", "You're Welcome"],
+   "context": ""
+  },
+
+  {"tag": "SNUC",
+   "patterns": ["snuc", "SNUC", "tell me about the college", "tell me about university", "tell me about snuc","tell me about shiv nadar university", "is college good?", "what do you say about the college", "tell me about shiv nadar university chennai", "give information of shiv nadar university chennai", "whats history of shiv nadar university chennai", "founder of shiv nadar university chennai", "shiv nadar university chennai ranking", "information about shiv nadar university chennai", "when is shiv nadar university chennai founded?"],
+   "responses": ["Shiv Nadar University was launched in October 2020, the second university to be set up by the Shiv Nadar Foundation, following Shiv Nadar University, Dadri in Uttar Pradesh. It is one of the best universities in India. For more information, refer this website: https://www.snuchennai.edu.in/"],
+   "context": ""
+  },
+
+  {"tag": "fees",
+   "patterns": ["fees", "What's the fees of AI-DS branch? ", "What's the fees of IOT branch?", "What's the fees of cyber branch?", "What is the fees of first year students?"],
+   "responses":["For fee details, click on this website and scroll down: https://www.snuchennaiadmissions.com/"],
+   "context": ""    
+  },
+
+  {"tag": "placements",
+   "patterns": ["placements", "What's the placements details of shiv nadar university chennai? ", "How many pople got placed this year?", "Is placements good?", "what about placements?"],
+   "responses": ["Placements at Shiv Nadar University Chennai will be handled by the same team which has churned out excellent placements for SSN over the years. The fact that over 230 organizations visited the SSN campus last year and made over 1200 quality offers is a testimony to the dynamism of the placement team. Google, Microsoft, Atlassian, Adobe, Amazon, Goldman Sachs, Citi, Barclays and PayPal are some of the prominent recruiters that hire top talents from SSN every academic year. For more information, click on this website: https://www.snuchennai.edu.in/placement/"],
+   "context": ""
+  },
+  
+  {"tag": "VC",
+   "patterns": ["vice chancellor" ,"Who is the Vice Chancellor of Shiv Nadar University Chennai?", "Who is the VC of Shiv Nadar University Chennai?", "Who is the Vice Chancellor of SNU Chennai?", "Who is the VC of SNU Chennai?"],
+   "responses": ["Mr. Shri Kumar Battacharya is the Vice- Chancellor of SNU Chennai."],
+   "context": ""
+  },
+
+  {"tag": "staff",
+   "patterns": ["teachers", "faculty", "staff", "What about the staff of Snu chennai? ", "Are teachers good? ", "How many teachers are there in SNU Chennai? ", "How many teachers are there in SNU Chennai? ", "Who are the teachers of snu chennai", "Are teachers good in snu chennai"],
+   "responses": ["Teachers are very supportive and will encourage students in all aspects. For staff details, refer this website: https://www.snuchennai.edu.in/faculty/"],
+   "context": ""
+
+  }, 
+  {"tag": "courses",
+   "patterns": ["What are the courses offered? ", "Which courses are there in SNU chennai?", "Which courses are there in snu chennai?", "How many courses are there in snu chennai? ", "How many courses are there in snuc?", "tell me about aids course.", "Tell me about iot course", "tell me about ai-ds course", "tell me about cyber course", "are courses good?"],
+   "responses": ["There are totally 3 kinds of courses offered by Shiv Nadar University Chennai. They are 1. B.Tech AI-DS 2. B.Tech IOT 3. B.Tech Cyber Security. For more information, refer this website: https://www.snuchennai.edu.in/academics/"],
+   "context": ""
+  }, 
+  {"tag": "hostels", 
+   "patterns": ["Hostels", "How are hostels in snu chennai? ", "are hostels good in college? ", "what kind of rooms will be given for 1st year students?", "what is the fee structure of the hostels?", "how many hostels are there in snu chennai?", "How many members per room? ", "Are hostels safe? ", "Do they charge very more in hostels? ", "How are wardens in hostels?", "Can students choose their rooms? "],
+   "responses": ["For 1st year students in SNU Chennai, the hostels are only shared. There are no single rooms for 1st year students. From second year, students can apply for single rooms. The wardens are cool and will be supportive. There will be a daily attendence in the hostel through the biometric scanner machine. For fee details, click on this link and scroll down: https://www.snuchennaiadmissions.com/"]
+  },
+  {"tag": "facilities",
+   "patterns": ["facilities","what are the facilities in the college?", "are facilities good in snu chennai?"],
+   "responses": ["The facilities in SNU Chennai are very good. There are many facilities like library, sports, gym, etc. For more information, refer this website: https://www.snuchennai.edu.in/campus-life/"],
+   "context": ""
+  },
+
+  {"tag": "location",
+   "patterns": ["location", "where is the college located?", "where is snu chennai located?", "where is shiv nadar university chennai located?", "where is snu chennai?", "where is shiv nadar university chennai?"],
+    "responses": ["Shiv Nadar University Chennai is located on SH-49A in Kalavakkam village near Thiruporur, on the Old Mahabalipuram read, around 20 km south of Chennai in Tamil Nadu, India."],
+    "context": ""
+  }, 
+  {"tag": "admission",
+   "patterns": ["admission", "how to get admission in snu chennai?", "how to get admission in shiv nadar university chennai?", "how to get admission in snu chennai?", "how to get admission in shiv nadar university chennai?", "how to get admission in snu chennai?", "how to get admission in shiv nadar university chennai?"],
+   "responses": ["For admission details, click on this website: https://www.snuchennaiadmissions.com/"],
+   "context": ""
+  },
+  {"tag": "contact",
+   "patterns": ["contact","contacts", "contact number", "what is the contact number of snu chennai?", "what is the contact number of shiv nadar university chennai?", "what is the contact number of snu chennai?", "what is the contact number of shiv nadar university chennai?", "what is the contact number of snu chennai?", "what is the contact number of shiv nadar university chennai?", "what is the email of snu chennai?", "email", "what is the email id of the college"],
+   "responses": ["The contact number of Shiv Nadar University Chennai is 044-4743-0000. The email ID of the University is: info@snuchennai.edu.in admissions@snuchennai.edu.in . For more details, refer this website: https://www.snuchennai.edu.in/contact-us/"],
+   "context": ""
+  },
+  {"tag": "school of enginnering",
+  "patterns": ["school of engineering", "school of engineering snu chennai", "school of engineering shiv nadar university chennai", "school of engineering snu chennai", "school of engineering shiv nadar university chennai", "school of engineering snu chennai", "school of engineering shiv nadar university chennai"],
+  "responses": ["The School of Engineering at Shiv Nadar University Chennai offers B.Tech. programs in three disciplines: Artificial Intelligence and Data Science, Internet of Things and Cyber Security, M.Tech in Artificial Intelligence and Data Science and Full Time PHD program. HOD of School of Enginnering is: Dr. T. Nagarajan. For more information, refer this website: https://www.snuchennai.edu.in/school-of-engineering/"],
+  "context": ""
+  }, 
+  {"tag": "school of humanities and social sciences",
+   "patterns": ["school of humanities and social sciences", "school of humanities and social sciences snu chennai", "school of humanities and social sciences shiv nadar university chennai", "school of humanities and social sciences snu chennai", "school of humanities and social sciences shiv nadar university chennai", "school of humanities and social sciences snu chennai", "school of humanities and social sciences shiv nadar university chennai"],
+   "responses": ["The School of Sciences and Humanities offers a BSc program in Economics (Data Science) as well as courses that enrich the programs offered by the two other schools. These courses not only provide a scaffolding for the students in the different programs offered at the university, but also help students develop multidisciplinary perspectives. Through these courses, students develop a wider and deeper understanding and also hone their 21st-century skills such as critical thinking, communication, creativity, and collaboration. For more details, refer this website: https://www.snuchennai.edu.in/schools-science-humanities/"],
+    "context": ""
+  },
+  {"tag": "school of commerce and management",
+   "patterns": ["school of commerce and management", "school of commerce and management snu chennai", "school of commerce and management shiv nadar university chennai", "school of commerce and management snu chennai", "school of commerce and management shiv nadar university chennai", "school of commerce and management snu chennai", "school of commerce and management shiv nadar university chennai"],
+   "responses": ["The School of Commerce and Management offers a BBA program in Business Analytics as well as courses that enrich the programs offered by the two other schools. These courses not only provide a scaffolding for the students in the different programs offered at the university, but also help students develop multidisciplinary perspectives. Through these courses, students develop a wider and deeper understanding and also hone their 21st-century skills such as critical thinking, communication, creativity, and collaboration. For more details, refer this website: https://www.snuchennai.edu.in/school-of-commerce-management/"],
+    "context": ""
+  },
+  {"tag": "clubs",
+   "patterns": ["clubs", "clubs in snu chennai", "clubs in shiv nadar university chennai", "clubs in snu chennai", "clubs in shiv nadar university chennai", "clubs in snu chennai", "clubs in shiv nadar university chennai"],
+   "responses": ["There are these many clubs"],
+    "context": ""
+  },
+  {"tag": "curriculum",
+   "patterns": ["syllabus", "curriculum of ai-ds", "curriculum", "curriculum in snu chennai", "curriculum in shiv nadar university chennai","curriculum in college", "curriculum in shiv nadar university chennai","what is the curriculum of snu chennai", "what is the syllabus of snu chennai","is syllabus good in snu chennai", "is curriculum good in snu chennai"],
+   "responses":["The curriculum of Shiv Nadar University Chennai is very good. It is designed in such a way that it helps students to learn and understand the concepts easily. For more details, click on this website and go to the respective branch's curriculum: https://www.snuchennai.edu.in/schools-engineering/"],
+    "context": ""
+
+  }
+]}
